@@ -1,0 +1,12 @@
+configuration:
+  debug_logging:
+    name: Debug logging
+    description: >-
+      Enable debug logging for the Wyoming Whisper API Client.
+  api_url:
+    name: API URL
+    description: >-
+      The URL and port of the Whisper.cpp server.
+
+network:
+  10300/tcp: Whisper Wyoming Protocol
