@@ -13,8 +13,5 @@ RUN git clone https://github.com/ser/wyoming-whisper-api-client
 WORKDIR /wyoming-whisper-api-client/
 RUN pip3 install --no-cache-dir --break-system-packages -r ./requirements.txt
 
-# Copy data for add-on
-COPY run.sh /
-RUN chmod a+x /run.sh
-
-CMD [ "/run.sh" ]
+# Copy root filesystem
+COPY rootfs /
