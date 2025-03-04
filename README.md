@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Wyoming Whisper API Client
+# Home Assistant Add-on: Wyoming Whisper API Client
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
@@ -25,7 +25,6 @@ comparison to installing any other Home Assistant add-on.
 3. Fill out all required fields in the configuration.
 4. Start the "Wyoming Whisper API Client" add-on.
 5. Check the logs of the "Wyoming Whisper API Client" to see if everything went well.
-6. Add Wyoming Protocol Service: Look up hostname on the add-on info page (default: `wyoming-whisper-api-client`) and use `10300` as port.
 
 [Read the full add-on documentation][docs]
 
@@ -39,7 +38,7 @@ This is an active open-source project. We are always open to people who want to 
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?repository_url=https%3A%2F%2Fgithub.com%2Fstylesuxx%2Faddon-wyoming-whisper-api-client&addon=Wyoming+Whisper+API+Client
-[docs]: https://github.com/stylesuxx/addon-wyoming-whisper-api-client/DOCS.md
+[docs]: https://github.com/stylesuxx/addon-wyoming-whisper-api-client/blob/master/DOCS.md
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg

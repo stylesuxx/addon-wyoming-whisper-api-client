@@ -9,3 +9,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add configuration for debug flag
 - Add configuration for API URL
 - Add translations for English
+- Add discovery service for Wyoming Protocol
