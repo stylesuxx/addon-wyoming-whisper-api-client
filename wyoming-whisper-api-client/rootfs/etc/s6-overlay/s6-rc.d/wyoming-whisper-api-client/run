@@ -4,15 +4,15 @@
 # s6-overlay docs: https://github.com/just-containers/s6-overlay
 # ==============================================================================
 
-DEBUG_LOGGING=$(bashio::config 'debug_logging')
 API_URL=$(bashio::config 'api_url')/inference
 PORT=10300
 URI=tcp://0.0.0.0:$PORT
 
-OPTIONS=""
-if [ "$DEBUG_LOGGING" = true ]; then
-  OPTIONS="$OPTIONS --debug"
+FLAGS=""
+if bashio::config.true 'debug_logging'; then
+    FLAGS+=('--debug')
 fi
 
+bashio::log.info "Starting Wyoming Whisper API Client..."
 cd /wyoming-whisper-api-client
-python3 -m wyoming_whisper_api_client --uri ${URI} --api ${API_URL} ${OPTIONS}
+exec python3 -m wyoming_whisper_api_client --uri ${URI} --api ${API_URL} ${FLAGS}

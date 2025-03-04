@@ -6,13 +6,6 @@
 # ==============================================================================
 declare config
 
-# Wait for wyoming-whisper-api-client to become available
-bash -c \
-    "until
-        echo '{ \"type\": \"describe\" }'
-            > /dev/tcp/localhost/10300; do sleep 0.5;
-    done" > /dev/null 2>&1 || true;
-
 config=$(\
     bashio::var.json \
         uri "tcp://$(hostname):10300" \

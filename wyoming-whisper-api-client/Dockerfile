@@ -14,4 +14,5 @@ WORKDIR /wyoming-whisper-api-client/
 RUN pip3 install --no-cache-dir --break-system-packages -r ./requirements.txt
 
 # Copy root filesystem
+WORKDIR /
 COPY rootfs /

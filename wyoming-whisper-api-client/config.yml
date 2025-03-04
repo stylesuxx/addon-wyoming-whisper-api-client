@@ -1,6 +1,6 @@
 name: Wyoming Whisper API Client
 description: Connect to an external whisper.cpp server instance
-version: "0.0.14"
+version: "0.0.17"
 slug: wyoming-whisper-api-client
 url: https://github.com/stylesuxx/home-assistant-add-ons/tree/master/wyoming-whisper-api-client
 init: false
