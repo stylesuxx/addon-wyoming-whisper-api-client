@@ -6,7 +6,10 @@
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports i386 Architecture][i386-shield]
 
+## About
 This is a simple add-on for Home Assistant that connects to a running [whisper.cpp](https://github.com/ggerganov/whisper.cpp) instance for STT (Speech-to-Text) functionality via [Wyoming Whisper API Client](https://github.com/ser/wyoming-whisper-api-client).
+
+This is for people who do not want to run whisper on their Home Assistant instance, but instead have a dedicated machine running the [whisper.cpp](https://github.com/ggerganov/whisper.cpp/tree/master/examples/server).
 
 ## Requirements
 - [whisper.cpp server](https://github.com/ggerganov/whisper.cpp/tree/master/examples/server) instance running
