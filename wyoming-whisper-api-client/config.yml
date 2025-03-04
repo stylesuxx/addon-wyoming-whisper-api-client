@@ -1,8 +1,8 @@
 name: Wyoming Whisper API Client
 description: Connect to an external whisper.cpp server instance
 version: "0.0.13"
-slug: wyoming_whisper_api_client
-url: https://github.com/stylesuxx/addon-wyoming-whisper-api-client
+slug: wyoming-whisper-api-client
+url: https://github.com/stylesuxx/home-assistant-add-ons/tree/master/wyoming-whisper-api-client
 init: false
 startup: services
 discovery:
