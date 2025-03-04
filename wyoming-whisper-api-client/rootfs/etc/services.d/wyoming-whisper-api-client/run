@@ -1,6 +1,6 @@
 #!/usr/bin/with-contenv bashio
 # ==============================================================================
-# Start the wyoming_whisper_api_client service
+# Start the wyoming-whisper-api-client
 # s6-overlay docs: https://github.com/just-containers/s6-overlay
 # ==============================================================================
 

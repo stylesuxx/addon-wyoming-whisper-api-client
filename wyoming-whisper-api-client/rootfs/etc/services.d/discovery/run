@@ -6,7 +6,7 @@
 # ==============================================================================
 declare config
 
-# Wait for wyoming_whisper_api_client to become available
+# Wait for wyoming-whisper-api-client to become available
 bash -c \
     "until
         echo '{ \"type\": \"describe\" }'
