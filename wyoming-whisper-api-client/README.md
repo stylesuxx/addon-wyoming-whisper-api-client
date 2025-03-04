@@ -37,7 +37,7 @@ This is an active open-source project. We are always open to people who want to 
 - [Wyoming Whisper API Client](https://github.com/ser/wyoming-whisper-api-client) - Whisper API client implementing Wyoming Protocol
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=wyoming-whisper-api-client&repository_url=https%3A%2F%2Fgithub.com%2Fstylesuxx%2Fhome-assistant-add-ons
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=408e8a4d_wyoming_whisper_api_client&repository_url=https%3A%2F%2Fgithub.com%2Fstylesuxx%2Fhome-assistant-add-ons
 [docs]: https://github.com/stylesuxx/home-assistant-add-ons/wyoming-whisper-api-client/blob/master/DOCS.md
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg

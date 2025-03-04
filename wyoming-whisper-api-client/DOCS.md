@@ -26,4 +26,4 @@ The `Wyoming Protocol` integration should auto discover this add on, should this
 Look up hostname on the add-on info page (default: `wyoming-whisper-api-client`) and use `10300` as port.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=wyoming-whisper-api-client&repository_url=https%3A%2F%2Fgithub.com%2Fstylesuxx%2Fhome-assistant-add-ons
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=408e8a4d_wyoming_whisper_api_client&repository_url=https%3A%2F%2Fgithub.com%2Fstylesuxx%2Fhome-assistant-add-ons
